@@ -1,0 +1,25 @@
+body {
+  font-family: "poppins", sans-serif;
+  background: #ececec;
+}
+.box-area {
+  width: 930px;
+}
+.right-box {
+  padding: 30px 70px 30px 70px;
+}
+::placeholder {
+  font-size: 16px;
+}
+@media only screen and(max-width: 768px) {
+  .box-area {
+    margin: 0 10px;
+  }
+  .left-box {
+    height: 100px;
+    overflow: hidden;
+  }
+  .right-box {
+    padding: 25px;
+  }
+}
